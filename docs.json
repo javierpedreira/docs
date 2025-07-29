@@ -11,60 +11,133 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "profiles",
+        "pages": [
+          "api-reference/profiles/counts-the-number-of-profiles-matching-a-given-filter"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Assistant",
+        "pages": [
+          "api-reference/assistant/post-apiv3assistantchat",
+          "api-reference/assistant/post-apiv3assistantchat-1",
+          "api-reference/assistant/post-apiv3assistantchat-action",
+          "api-reference/assistant/post-apiv3assistanthubchat",
+          "api-reference/assistant/post-apiv3assistanthubchat-1",
+          "api-reference/assistant/post-apiv3assistantknowledgeupdate"
+        ]
+      },
+      {
+        "group": "Data access levels",
+        "pages": [
+          "api-reference/data-access-levels/lists-data-access-levels",
+          "api-reference/data-access-levels/adds-users-to-access-level",
+          "api-reference/data-access-levels/deletes-access-level-from-users"
+        ]
+      },
+      {
+        "group": "authorizations",
+        "pages": [
+          "api-reference/authorizations/get-a-permission-level",
+          "api-reference/authorizations/set-a-permission-level",
+          "api-reference/authorizations/delete-a-permission-level",
+          "api-reference/authorizations/set-a-permission-level-for-multiple-accounts",
+          "api-reference/authorizations/list-all-authorizations"
+        ]
+      },
+      {
+        "group": "Trends",
+        "pages": [
+          "api-reference/trends/gets-the-total-spent-of-all-transactions-per-brand-per-month"
+        ]
+      },
+      {
+        "group": "admin-operations",
+        "pages": [
+          "api-reference/admin-operations/list-all-the-available-data-sources"
+        ]
+      },
+      {
+        "group": "cards",
+        "pages": ["api-reference/cards/gets-single-card-data-ignores-sampling"]
+      },
+      {
+        "group": "clients",
+        "pages": [
+          "api-reference/clients/changes-whether-a-client-is-enabled-or-not",
+          "api-reference/clients/provisioncreate-a-new-clienttenant",
+          "api-reference/clients/list-of-all-the-features-enabled-for-a-client-and-the-environment",
+          "api-reference/clients/count-data-element-usages",
+          "api-reference/clients/the-status-of-all-enabled-clients"
+        ]
+      },
+      {
+        "group": "campaigns",
+        "pages": [
+          "api-reference/campaigns/lists-available-campaigns",
+          "api-reference/campaigns/creates-a-campaign-optimisation-request",
+          "api-reference/campaigns/lists-available-campaigns-1",
+          "api-reference/campaigns/lists-optimised-campaigns-and-their-status",
+          "api-reference/campaigns/lists-optimised-campaigns-that-are-available-for-actioning",
+          "api-reference/campaigns/get-the-dashboard-for-an-optimised-campaign-for-a-given-user"
+        ]
+      },
+      {
+        "group": "Bricks",
+        "pages": [
+          "api-reference/bricks/gets-the-release-notes-as-markdown",
+          "api-reference/bricks/returns-a-winnerslosers-brick-content-for-the-specified-comparison",
+          "api-reference/bricks/returns-the-kpis-brick-content",
+          "api-reference/bricks/returns-a-barchart-brick-content-for-the-specified-comparison",
+          "api-reference/bricks/returns-the-list-of-configured-bricks"
+        ]
+      },
+      {
+        "group": "accounts",
+        "pages": [
+          "api-reference/accounts/the-current-users-account-details-and-a-list-of-their-permissions"
+        ]
+      },
+      {
+        "group": "dashboard",
+        "pages": [
+          "api-reference/dashboard/put-apiv3dashboards-change",
+          "api-reference/dashboard/post-apiv3dashboards",
+          "api-reference/dashboard/get-apiv3dashboards-card-data",
+          "api-reference/dashboard/get-apiv3dashboards-config"
+        ]
+      },
+      {
+        "group": "dashboard-templates",
+        "pages": [
+          "api-reference/dashboard-templates/get-apiv3dashboard-templates"
+        ]
+      },
+      {
+        "group": "Segments",
+        "pages": [
+          "api-reference/segments/get-apiv3segment",
+          "api-reference/segments/get-apiv3segments",
+          "api-reference/segments/post-apiv3segment",
+          "api-reference/segments/post-apiv3segments-publish"
+        ]
+      },
+      {
+        "group": "Integration",
+        "pages": [
+          "api-reference/integration/returns-the-integration-configuration"
+        ]
+      },
+      {
+        "group": "secure",
+        "pages": ["api-reference/secure/post-apiv3secureencrypt"]
+      },
+      {
+        "group": "folders",
+        "pages": [
+          "api-reference/folders/creates-a-new-folder-for-the-users-audiences",
+          "api-reference/folders/updates-a-folder",
+          "api-reference/folders/deletes-a-folder"
         ]
       }
     ],
